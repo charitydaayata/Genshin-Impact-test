@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact – Step Into a Magical World of Adventure</title>
+    <link rel="icon" href="../Genshin2/assets/applogo.png" type="image/x-icon">  <!--to insert a photo dadto sa chrome tab-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- FontAwesome package link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Fontawesome icons-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../Genshin2/css/inazuma.css">
+    <script src="../Genshin2/js/index2.js"></script>
+
+    
+</head>
+<audio id="background-music" autoplay loop>
+    <source src="../Genshin2/assets/inazuma-theme.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<body>
+    <!-- header dari -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/genshin-logo.png" alt="Logo" style="width: 120px; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Genshin2/index1.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Maps
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Genshin2/mondstadt.html">Mondstadt</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/liyue.html">Liyue</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/inazuma.html">Inazuma</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/sumeru.html">Sumeru</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/fontaine.html">Fontaine</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/natlan.html">Natlan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link custom-button" href="https://act.hoyoverse.com/puzzle/hk4e/pz_DvjBejelna/index.html" target="_blank">Download Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of header -->
+
+
+<!-- content start -->
+ <!-- section 1 -->
+ <!-- section 1 -->
+
+<section id="section-1" class="section">
+    <h1>Welcome to Inazuma</h1>
+    <h2>The Land of Eternity</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- First Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-1">
+                    <img src="../Genshin2/assets/inazuma.jpg" alt="Mondstadt" class="img-fluid">
+                    <h2>Inazuma City</h2>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-2">
+                    <img src="../Genshin2/assets/watatsumi.jpg" alt="Liyue" class="img-fluid">
+                    <h2>Watatsumi Island</h2>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-3">
+                    <img src="../Genshin2/assets/mosoujin.jpg" alt="Inazuma" class="img-fluid">
+                    <h2>Mosoujin Gorge</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Content Section -->
+        <div class="row justify-content-center">
+            <!-- Fourth -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-4">
+                    <img src="../Genshin2/assets/amakumo.jpg" alt="Sumeru" class="img-fluid">
+                    <h2>Amakumo Peak</h2>
+                </div>
+            </div>
+            <!-- Fifth -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-5">
+                    <img src="../Genshin2/assets/chinju.jpg" alt="Fontaine" class="img-fluid">
+                    <h2>Chinju Forest</h2>
+                </div>
+            </div>
+            <!-- Sixth -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-6">
+                    <img src="../Genshin2/assets/assase.jpg" alt="Natlan" class="img-fluid">
+                    <h2> Asase Shrine</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal for Mondstadt -->
+<!-- Modal 1 -->
+<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="modal-1-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-1-label">Inazuma City</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/inazuma.gif" alt="Mondstadt" class="img-fluid mb-3" id="modal-image">
+                <p class="modal-description">
+                    Inazuma City is a subarea and a main city located in Narukami Island, Inazuma. Rising high atop the cliffs at the southern tip of Narukami Island, it it was built during the Archon War and is the seat of power of the Shogunate and the Raiden Shogun.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for Stormterror's Lair -->
+<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="modal-2-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-2-label">Watatsumi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/watatsumi.gif" alt="Stormterror" class="img-fluid mb-3" id="modal-image2">
+                <p class="modal-description">
+                    Watatsumi Island is an area located in Inazuma. Among these islands, it is located the farthest and on the opposite end of Narukami Island. It is known for its dense foliage in breathtaking colors which are distinct from plants found elsewhere.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Windrise -->
+<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="modal-3-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-3-label">Mosoujin Gorge</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/mosoujin.gif" alt="Windrise" class="img-fluid mb-3" id="modal-image3">
+                <p class="modal-description">
+                    Musoujin Gorge is located in the eastern part of Yashiori Island, Inazuma. It was formed during a battle between the Raiden Shogun and Orobashi. The Raiden Shogun performed Musou no Hitotachi, her divine judgement, and cleaved both the serpent and the island.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dragonspine -->
+<div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="modal-4-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-4-label">Amakumo Peak</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/amakumo.gif" alt="Dragonspine" class="img-fluid mb-3" id="modal-image4" >
+                <p class="modal-description">
+                    Amakumo Peak is a subarea located in Seirai Island, Inazuma. Long ago, Kanna Kapatcir was slain here (thunder manifestation), while the power of its lingering hatred and regret was suppressed by wards maintained by the Asase Shrine.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Starsnatch Cliff -->
+<div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="modal-5-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-5-label">Chinju Forest</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/chinju.gif" alt="Starsnatch Cliff" class="img-fluid mb-3" id="modal-image5">
+                <p class="modal-description">
+                    Chinju Forest is a subarea located in Narukami Island, Inazuma. It is a sacred grove nestled in a small river valley just south of Mt. Yougou. The path to the Kamisato Estate leads through these woods. Due to some unknown reason, this forest is shrouded in an eternal night, with the glow of an unseen moon casting a serene ambience within its borders.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dadaupa Gorge -->
+<div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="modal-6-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-6-label">Asase Shrine</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/assase.gif" alt="Dadaupa Gorge" class="img-fluid mb-3" id="modal-image6">
+                <p class="modal-description">
+                    The Asase Shrine is a subarea in Seirai Island. The shrine was established to suppress the lingering power of Kanna Kapatcir, also known as the Thunderbird.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 2 -->
+<section id="section-2">
+    <!-- Section for Character Card -->
+    <section id="section-2" class="section">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>CHARACTER SHOWCASE</h1>
+            <div class="row justify-content-center">
+                <!-- Character Card 1 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-1">
+                        <img src="../Genshin2/assets/raiden.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 2 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-2">
+                        <img src="../Genshin2/assets/itto.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 3 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-3">
+                        <img src="../Genshin2/assets/yoimiya.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 4 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-4">
+                        <img src="../Genshin2/assets/kokomi.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 5 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-5">
+                        <img src="../Genshin2/assets/ayaka.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Character 1 -->
+    <div class="modal fade" id="character-modal-1" tabindex="-1" aria-labelledby="character-modal-1-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-1-label">Raiden Shogun</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/raiden.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                     The Raiden Shogun is comprised of two beings in one body: Ei, the current Electro Archon of Inazuma; and the Shogun, the puppet created by Ei to act as the ruler of Inazuma in her stead.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 2 -->
+    <div class="modal fade" id="character-modal-2" tabindex="-1" aria-labelledby="character-modal-2-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-2-label">Arataki Itto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/itto.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        Despite appearing as "mean and overbearing," Itto is a kind soul at heart, apart from trying to pick a fight with Kujou Sara at every possible opportunity. He is not particularly intelligent, but can put in the effort when asked of him. He is respected by his gang and mostly liked by Inazuma City's people, especially children, but is at odds with the Tenryou Commission despite his mostly harmless antics and pranks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 3 -->
+    <div class="modal fade" id="character-modal-3" tabindex="-1" aria-labelledby="character-modal-3-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-3-label">Yoimiya</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/yoimiya.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        A talented pyrotechnician. The current owner of Naganohara Fireworks known as the "Queen of the Summer Festival". A girl filled with fiery passion. The uncompromising childish innocence and the obsession with craftsmanship intertwine in her to create a spectacular blaze.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 4 -->
+    <div class="modal fade" id="character-modal-4" tabindex="-1" aria-labelledby="character-modal-4-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-4-label">Sangonomiya Kokomi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/kokomi.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        Kokomi is the Divine Priestess of Watatsumi Island, and also serves as its supreme leader. She is well-versed in the art of war, is good at strategizing, and has keen insights into military affairs. She is also adept at handling domestic affairs, diplomacy, and other matters. Still, this unfathomable leader has a mysterious side to her...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 5 -->
+    <div class="modal fade" id="character-modal-5" tabindex="-1" aria-labelledby="character-modal-5-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-5-label">Kamisato Ayaka</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/ayaka.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        Daughter of the Yashiro Commission's Kamisato Clan from Inazuma. Dignified and elegant, wise and determined. Sincere and pleasant to others. Universally loved by the Inazuma people, she has earned the title of Shirasagi Himegimi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Footer -->
+    <footer id="contact-us" class="bg-dark text-white text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">About Genshin</h5>
+                    <p>
+                        Genshin Impact is a 2020 action role-playing game produced by MiHoYo/HoYoverse. The game features an anime-style open world environment and an action-based battle system using elemental magic and character-switching.
+                    </p>
+                </div>
+
+                <!-- Footer Logo Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 d-flex justify-content-center align-items-center">
+                    <div class="footer-img">
+                        <img src="../Genshin2/assets/genshin-logo-footer.png" alt="Genshin Logo">
+                        <img src="../Genshin2/assets/teen-rsb.png" alt="">
+                        <img src="../Genshin2/assets/hoyoverse.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-lg-end">
+                    <h5 class="text-uppercase">Contact Us</h5>
+                    <p>Email: genshin_cs@hoyoverse.com</p>
+                    <p>Follow us on:</p>
+                    <a href="https://www.facebook.com/Genshinimpact" class="text-white me-2"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://x.com/GenshinImpact" class="text-white me-2"><i class="fab fa-twitter"></i> X (Twitter)</a>
+                    <a href="https://www.hoyolab.com/accountCenter/postList?id=1015537" class="text-white me-2"><i class="fas fa-globe"></i> Hoyolab</a>
+                    <a href="https://www.youtube.com/c/GenshinImpact" class="text-white"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="text-center p-3 bg-secondary">
+            Copyright © COGNOSPHERE. All Rights Reserved.
+        </div>
+    </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var backgroundMusic = document.getElementById('background-music');
+                var wasPlayingBeforeModal = false; // To track if music was playing before modal opened
+        
+                // Autoplay the background music when the page loads
+                backgroundMusic.volume = 0.5; // Adjust volume if needed
+                backgroundMusic.play().catch(function (error) {
+                    console.warn('Autoplay failed:', error);
+                });
+        
+                // Spacebar toggle for background music
+                document.addEventListener('keydown', function (event) {
+                    if (event.code === 'Space' && !event.target.matches('input, textarea')) {
+                        event.preventDefault(); 
+                        if (backgroundMusic.paused) {
+                            backgroundMusic.play();
+                        } else {
+                            backgroundMusic.pause();
+                        }
+                    }
+                });
+        
+                // Global event listeners for Bootstrap modals
+                document.addEventListener('shown.bs.modal', function (event) {
+                    wasPlayingBeforeModal = !backgroundMusic.paused;
+                    backgroundMusic.pause();
+        
+                    var video = event.target.querySelector('video');
+                    if (video) {
+                        video.play();
+                    }
+                });
+        
+                document.addEventListener('hidden.bs.modal', function (event) {
+                    var video = event.target.querySelector('video');
+                    if (video) {
+                        video.pause();
+                        video.currentTime = 0; // Reset video when modal closes
+                    }
+        
+                    if (wasPlayingBeforeModal) {
+                        backgroundMusic.play();
+                    }
+                });
+            });
+        </script>
+        
+</body>
+</html>

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.bg-photo {
+    background-image: url('assets/welcome-to-teyvat.jpg');  
+    background-size: cover;          
+    background-position: center;      
+    background-repeat: no-repeat;     
+    min-height: 100vh;                   
+    display: flex;                    
+    justify-content: center;          
+    align-items: center;              
+    text-align: center;               
+    color: white;
+}
+
+footer {
+    background-color: #343a40;   
+    color: white;                 
+    text-align: center;    
+    width: 100%;
+    position: static;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #343a40;  /* Dark background color */
+    color: white;                /* White text color */
+    text-align: center;          /* Center-align text */
+    width: 100%;
+    position: static;
+    padding: 40px 20px;          /* Add padding for better spacing */
+}
+
+footer img {
+    width: 120px;                /* Standard logo size */
+    margin-bottom: 20px;         /* Space between logo and links */
+}
+
+footer a {
+    color: white;                /* White text color for links */
+    text-decoration: none;       /* Remove underlines */
+    margin: 10px 15px;           /* Spacing between links */
+    font-size: 16px;             /* Slightly bigger text for better visibility */
+    transition: all 0.3s ease;   /* Smooth transition on hover */
+}
+
+footer a:hover {
+    color: #17a2b8;              /* Light blue color on hover for a modern look */
+    text-decoration: underline;  /* Underline on hover for interaction feedback */
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;         /* Space for social links */
+}
+
+footer .social-icons a {
+    font-size: 20px;             /* Larger icons */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+footer .social-icons a:hover {
+    transform: scale(1.2);       /* Slightly enlarge icons on hover */
+}
+
+footer p {
+    font-size: 14px;             /* Smaller text for the copyright text */
+    color: #bbb;                 /* Lighter gray for less emphasis */
+    line-height: 1.6;            /* Add line height for better readability */
+    margin-top: 20px;            /* Space between links and copyright */
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 768px) {
+    footer img {
+        width: 100px;            /* Reduce logo size on small screens */
+    }
+
+    footer .social-icons {
+        flex-direction: column;  /* Stack social icons vertically on small screens */
+        align-items: center;
+    }
+
+    footer .social-icons a {
+        font-size: 18px;         /* Slightly smaller icons on mobile */
+    }
+}
+
+

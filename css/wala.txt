@@ -1,0 +1,148 @@
+/* always copy from here till end of custombutton */
+.footer-img {
+    display: flex;                /* Make the container a flexbox */
+    justify-content: center;      /* Center the images horizontally */
+    align-items: center;          /* Center the images vertically */
+    gap: 10px;                    /* Add space between the images */
+    margin-top: 10px;              /* Space above the images */
+    margin-bottom: 10px;           /* Space below the images */
+}
+
+.footer-img img {
+    max-width: 100px;             /* Set a uniform max width for each image */
+    height: auto;                 /* Maintain aspect ratio */
+}
+
+.custom-button {
+    display: inline-block; /* Makes it behave like a button */
+    padding: 5px 10px; /* Adds padding */
+    background-color: #ffc107; /* Bright yellow background */
+    color: #000; /* Black text for contrast */
+    border: 2px solid #ffc107; /* Border matches the background color */
+    border-radius: 5px; /* Adds rounded corners */
+    text-decoration: none; /* Removes underline */
+    text-align: center; /* Centers text */
+    cursor: pointer; /* Pointer cursor for links */
+}
+/* always copy this when making other page highlight from here to above */
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact – Step Into a Magical World of Adventure</title>
+    <link rel="icon" href="../Genshin2/assets/applogo.png" type="image/x-icon">  <!--to insert a photo dadto sa chrome tab-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- FontAwesome package link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../Genshin2/css/index1.css">
+    <script src="../Genshin2/js/mondstadt.js"></script>
+</head>
+<body>
+    <!-- header dari -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/genshin-logo.png" alt="Logo" style="width: 120px; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Genshin2/index1.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Maps
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Genshin2/mondstadt.html">Mondstadt</a></li>
+                            <li><a class="dropdown-item" href="map2.html">Liyue</a></li>
+                            <li><a class="dropdown-item" href="map3.html">Inazuma</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link custom-button" href="https://act.hoyoverse.com/puzzle/hk4e/pz_DvjBejelna/index.html" target="_blank">Download Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of header -->
+
+<!-- content start -->
+
+
+
+
+
+   <!-- Footer -->
+    <footer id="contact-us" class="bg-dark text-white text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">About Genshin</h5>
+                    <p>
+                        Genshin Impact is a 2020 action role-playing game produced by MiHoYo/HoYoverse. The game features an anime-style open world environment and an action-based battle system using elemental magic and character-switching.
+                    </p>
+                </div>
+
+                <!-- Footer Logo Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 d-flex justify-content-center align-items-center">
+                    <div class="footer-img">
+                        <img src="../Genshin2/assets/genshin-logo-footer.png" alt="Genshin Logo">
+                        <img src="../Genshin2/assets/teen-rsb.png" alt="">
+                        <img src="../Genshin2/assets/hoyoverse.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-lg-end">
+                    <h5 class="text-uppercase">Contact Us</h5>
+                    <p>Email: genshin_cs@hoyoverse.com</p>
+                    <p>Follow us on:</p>
+                    <a href="https://www.facebook.com/Genshinimpact" class="text-white me-2"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://x.com/GenshinImpact" class="text-white me-2"><i class="fab fa-twitter"></i> X (Twitter)</a>
+                    <a href="https://www.hoyolab.com/accountCenter/postList?id=1015537" class="text-white me-2"><i class="fas fa-globe"></i> Hoyolab</a>
+                    <a href="https://www.youtube.com/c/GenshinImpact" class="text-white"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="text-center p-3 bg-secondary">
+            Copyright © COGNOSPHERE. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+js
+    <script>
+        var modals = ['character-modal-1', 'character-modal-2', 'character-modal-3', 'character-modal-4', 'character-modal-5'];
+    
+        modals.forEach(function(modalId) {
+            var modal = document.getElementById(modalId);
+            
+            modal.addEventListener('shown.bs.modal', function () {
+                var video = modal.querySelector('video');
+                video.play();
+            });
+    
+            modal.addEventListener('hidden.bs.modal', function () {
+                var video = modal.querySelector('video');
+                video.pause();
+                video.currentTime = 0; // Reset video to the beginning
+            });
+        });
+    </script>

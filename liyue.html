@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact – Step Into a Magical World of Adventure</title>
+    <link rel="icon" href="../Genshin2/assets/applogo.png" type="image/x-icon">  <!--to insert a photo dadto sa chrome tab-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- FontAwesome package link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Fontawesome icons-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../Genshin2/css/liyue.css">
+    <script src="../Genshin2/js/index2.js"></script> <!--sa scrolling control-->
+
+    
+</head>
+<audio id="background-music" autoplay loop>
+    <source src="../Genshin2/assets/Liyue.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<body>
+    <!-- header dari -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/genshin-logo.png" alt="Logo" style="width: 120px; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Genshin2/index1.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Maps
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Genshin2/mondstadt.html">Mondstadt</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/liyue.html">Liyue</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/inazuma.html">Inazuma</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/sumeru.html">Sumeru</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/fontaine.html">Fontaine</a></li>
+                            <li><a class="dropdown-item" href="../Genshin2/natlan.html">Natlan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link custom-button" href="https://act.hoyoverse.com/puzzle/hk4e/pz_DvjBejelna/index.html" target="_blank">Download Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of header -->
+
+
+<!-- content start -->
+ <!-- section 1 -->
+ <!-- section 1 -->
+
+<section id="section-1" class="section">
+    <h1>Welcome to Liyue</h1>
+    <h2>The Nation of Contracts</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- First Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-1">
+                    <img src="../Genshin2/assets/liyue-harbor.jpg" alt="Mondstadt" class="img-fluid">
+                    <h2>Liyue Harbor</h2>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-2">
+                    <img src="../Genshin2/assets/guyun.jpg" alt="Liyue" class="img-fluid">
+                    <h2>Guyun Stone Forest</h2>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-3">
+                    <img src="../Genshin2/assets/chasm.jpg" alt="Inazuma" class="img-fluid">
+                    <h2>The Chasm</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Content Section -->
+        <div class="row justify-content-center">
+            <!-- Fourth -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-4">
+                    <img src="../Genshin2/assets/chenyu.jpg" alt="Sumeru" class="img-fluid">
+                    <h2>Chenyu Vale</h2>
+                </div>
+            </div>
+            <!-- Fifth -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-5">
+                    <img src="../Genshin2/assets/minlin.jpg" alt="Fontaine" class="img-fluid">
+                    <h2>Qingyun Peak</h2>
+                </div>
+            </div>
+            <!-- Sixth -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="image-card" data-bs-toggle="modal" data-bs-target="#modal-6">
+                    <img src="../Genshin2/assets/mt-aocang.webp" alt="Natlan" class="img-fluid">
+                    <h2> Mt. Aocang</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal for Mondstadt -->
+<!-- Modal 1 -->
+<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="modal-1-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-1-label">Liyue Harbor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/liyuegif.gif" alt="Mondstadt" class="img-fluid mb-3" id="modal-image">
+                <p class="modal-description">
+                    Liyue Harbor is a subarea and a main city located in Sea of Clouds, Liyue. Before the Archon War, Rex Lapis brought his people south of Mt. Tianheng, to found what is now known as Liyue Harbor. They tried to expand their city to Guili Plains, but after Guizhong died during the Archon War, they moved back to Liyue Harbor.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for Stormterror's Lair -->
+<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="modal-2-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-2-label">Guyun Stone Forest</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/guyungif.gif" alt="Stormterror" class="img-fluid mb-3" id="modal-image2">
+                <p class="modal-description">
+                    Guyun Stone Forest is a subarea located in Sea of Clouds, Liyue. It is an archipelago of seven large islands and smaller offshoots. The northernmost island houses the Geo Hypostasis, and the island to the southwest holds the Domain of Guyun.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Windrise -->
+<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="modal-3-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-3-label">The Chasm</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/chasmgif.gif" alt="Windrise" class="img-fluid mb-3" id="modal-image3">
+                <p class="modal-description">
+                    The Chasm is an area located in The Chasm, Liyue. In the recent past, a series of mysterious accidents led the entire mine to be closed, putting its workers out of a job. However, the Liyue Qixing is gradually reopening the area, thus allowing miners to resume working.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dragonspine -->
+<div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="modal-4-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-4-label">Chenyu Vale</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/chenyugif.gif" alt="Dragonspine" class="img-fluid mb-3" id="modal-image4" >
+                <p class="modal-description">
+                    Chenyu Vale refers to the area surrounding Mt. Yaojun, a sacred mountain which was once under the dominion of an adeptus known as the "Herblord," who once took the form of a young lady. While Chenyu Vale is described as having "many mountains & rivers" in Flowing Rings' description, Jade Leaf's description only mentions a single river; regardless, this water source is likely the reason why Chenyu Vale's climate is "relatively humid" compared to the Hills of Barsom.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Starsnatch Cliff -->
+<div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="modal-5-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-5-label">Qingyun Peak</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/qingyungif.gif" alt="Starsnatch Cliff" class="img-fluid mb-3" id="modal-image5">
+                <p class="modal-description">
+                    Qingyun Peak is a subarea located in Minlin, Liyue. It is the home of the adeptus Moon Carver. Notably, the Dwelling in the Clouds — a small floating island high above this mountain — can be reached by completing a puzzle. It was created by Cloud Retainer at an unknown point in the past.
+                </p>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dadaupa Gorge -->
+<div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="modal-6-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-6-label">Mt. Aocang</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../Genshin2/assets/aocanggif.gif" alt="Dadaupa Gorge" class="img-fluid mb-3" id="modal-image6">
+                <p class="modal-description">
+                    Mt. Aocang is a subarea located in Minlin, Liyue. It was the domain of the adeptus Cloud Retainer while she lived in isolation, following the Archon War and until the events of A Thousand Moonlit Miles.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 2 -->
+<section id="section-2">
+    <!-- Section for Character Card -->
+    <section id="section-2" class="section">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>CHARACTER SHOWCASE</h1>
+            <div class="row justify-content-center">
+                <!-- Character Card 1 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-1">
+                        <img src="../Genshin2/assets/zhongli.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 2 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-2">
+                        <img src="../Genshin2/assets/xiao.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 3 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-3">
+                        <img src="../Genshin2/assets/hutao.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 4 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-4">
+                        <img src="../Genshin2/assets/ganyu.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+                <!-- Character Card 5 -->
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <div class="character-card" data-bs-toggle="modal" data-bs-target="#character-modal-5">
+                        <img src="../Genshin2/assets/baizhu.jpg" alt="Character Name" class="img-fluid character-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Character 1 -->
+    <div class="modal fade" id="character-modal-1" tabindex="-1" aria-labelledby="character-modal-1-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-1-label">Zhongli</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/zhongli.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        Wangsheng Funeral Parlor's mysterious consultant. Handsome, elegant, and surpassingly learned. Though no one knows where Zhongli is from, he is a master of courtesy and rules. From his seat at Wangsheng Funeral Parlor, he performs all manner of rituals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 2 -->
+    <div class="modal fade" id="character-modal-2" tabindex="-1" aria-labelledby="character-modal-2-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-2-label">Xiao</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/xiao.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        One of the mighty and illuminated adepti guarding Liyue, also heralded as the "Vigilant Yaksha." Despite his youthful appearance, tales of his exploits have been documented for millennia. He is especially fond of Wangshu Inn's Almond Tofu. This is because it tastes just like the sweet dreams he used to devour.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 3 -->
+    <div class="modal fade" id="character-modal-3" tabindex="-1" aria-labelledby="character-modal-3-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-3-label">Hu Tao</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/hutao.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        Hu Tao's antics and eccentricity belies her role as the 77th Director of the Wangsheng Funeral Parlor and her talent as a poet. Nevertheless, she treats the parlor's operations with utmost importance, and holds funeral ceremonies with the highest dignity and solemnity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 4 -->
+    <div class="modal fade" id="character-modal-4" tabindex="-1" aria-labelledby="character-modal-4-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-4-label">Ganyu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/ganyu.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        Ganyu is usually very meek, mild-mannered, and reserved due to her half-qilin heritage, and is easily flustered. She also completes whatever is given to her, whether it be tasks or food, even if she is reluctant to do so. Privately, she tends to snap whenever people speak ill of Beidou or the Geo Archon.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Character 5 -->
+    <div class="modal fade" id="character-modal-5" tabindex="-1" aria-labelledby="character-modal-5-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="character-modal-5-label">Baizhu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Centering the video -->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video src="../Genshin2/assets/baizhu.mp4" autoplay controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="modal-description">
+                        The owner of Bubu Pharmacy and Qiqi's guardian, Doctor Baizhu is a master of the medicinal arts and the latest recipient of a generational contract with a white snake named Changsheng. He seeks to achieve immortality to ensure he is the last to ever bear his contract, saving potential inheritors and even Changsheng herself from the cost that comes with its power.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Footer -->
+    <footer id="contact-us" class="bg-dark text-white text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">About Genshin</h5>
+                    <p>
+                        Genshin Impact is a 2020 action role-playing game produced by MiHoYo/HoYoverse. The game features an anime-style open world environment and an action-based battle system using elemental magic and character-switching.
+                    </p>
+                </div>
+
+                <!-- Footer Logo Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 d-flex justify-content-center align-items-center">
+                    <div class="footer-img">
+                        <img src="../Genshin2/assets/genshin-logo-footer.png" alt="Genshin Logo">
+                        <img src="../Genshin2/assets/teen-rsb.png" alt="">
+                        <img src="../Genshin2/assets/hoyoverse.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-lg-end">
+                    <h5 class="text-uppercase">Contact Us</h5>
+                    <p>Email: genshin_cs@hoyoverse.com</p>
+                    <p>Follow us on:</p>
+                    <a href="https://www.facebook.com/Genshinimpact" class="text-white me-2"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://x.com/GenshinImpact" class="text-white me-2"><i class="fab fa-twitter"></i> X (Twitter)</a>
+                    <a href="https://www.hoyolab.com/accountCenter/postList?id=1015537" class="text-white me-2"><i class="fas fa-globe"></i> Hoyolab</a>
+                    <a href="https://www.youtube.com/c/GenshinImpact" class="text-white"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="text-center p-3 bg-secondary">
+            Copyright © COGNOSPHERE. All Rights Reserved.
+        </div>
+    </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var backgroundMusic = document.getElementById('background-music');
+                var wasPlayingBeforeModal = false; // To track if music was playing before modal opened
+        
+                // Autoplay the background music when the page loads
+                backgroundMusic.volume = 0.5; // Adjust volume if needed
+                backgroundMusic.play().catch(function (error) {
+                    console.warn('Autoplay failed:', error);
+                });
+        
+                // Spacebar toggle for background music
+                document.addEventListener('keydown', function (event) {
+                    if (event.code === 'Space' && !event.target.matches('input, textarea')) {
+                        event.preventDefault(); 
+                        if (backgroundMusic.paused) {
+                            backgroundMusic.play();
+                        } else {
+                            backgroundMusic.pause();
+                        }
+                    }
+                });
+        
+                // Global event listeners for Bootstrap modals
+                document.addEventListener('shown.bs.modal', function (event) {
+                    wasPlayingBeforeModal = !backgroundMusic.paused;
+                    backgroundMusic.pause();
+        
+                    var video = event.target.querySelector('video');
+                    if (video) {
+                        video.play();
+                    }
+                });
+        
+                document.addEventListener('hidden.bs.modal', function (event) {
+                    var video = event.target.querySelector('video');
+                    if (video) {
+                        video.pause();
+                        video.currentTime = 0; // Reset video when modal closes
+                    }
+        
+                    if (wasPlayingBeforeModal) {
+                        backgroundMusic.play();
+                    }
+                });
+            });
+        </script>
+        
+</body>
+</html>
